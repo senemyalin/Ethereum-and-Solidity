@@ -1,9 +1,6 @@
 pragma solidity ^0.5.0;
 
-// ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
-//
-// ----------------------------------------------------------------------------
 
 //Hazır ERC20 interfaceidir.
 contract ERC20Interface {
@@ -18,9 +15,8 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 
-// ----------------------------------------------------------------------------
+
 // Safe Math Library 
-// ----------------------------------------------------------------------------
 
 //Tüm matematiksel işlemleri bu kütüphaneyle yapabiliriz.
 contract SafeMath {
