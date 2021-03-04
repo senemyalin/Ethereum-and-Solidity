@@ -44,7 +44,7 @@ contract ERC20Token is ERC20Interface, SafeMath {
     //Bir tokenin ismi ve sembolü olmalı, bu yüzden bunları tanımlıyoruz.
     string public name;
     string public symbol;
-    uint8 public decimals; // 18 decimals is the strongly suggested default, avoid changing it
+    uint8 public decimals; 
     
     uint256 public _totalSupply;
     
@@ -52,11 +52,7 @@ contract ERC20Token is ERC20Interface, SafeMath {
     mapping(address => uint) balances;
     mapping(address => mapping(address => uint)) allowed;
     
-    /**
-     * Constrctor function
-     *
-     * Initializes contract with initial supply tokens to the creator of the contract
-     */
+    
     constructor() public {
         
         //Tokenımın ismini ve sembolünü belirledim.
