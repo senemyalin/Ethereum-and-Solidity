@@ -5,7 +5,7 @@ ERC Token Standard #20 Interface'ini kullanarak kendi tokenimi oluşturdum.
 Bir tokenin ismi ve sembolü olması gerektiği için bu variablelar tanımlandı.
 Constructor'da tokenın ismi, sembolü, decimali ve toplam miktarı belirlendi.
 
-Sonrasında interface'te kullanılan fonksiyonların içi dolduruldu.
+Sonrasında interface'te kullanılan fonksiyonları inceledim ve ne işe yaradıklarını öğrendim. Neyin neden gerekliği olduğu aşağıda belirtilmiştir:
 Fonksiyonlar:
 totalSupply() -> Oluşturulan toplam ERC-20 token sayısını belirtir. 
 balanceOf() -> Belirli bir adreste, contract sahibinin hesabında bulunan token sayısını döndürür.
@@ -14,4 +14,4 @@ approve() -> Bakiye kontrol edildikten sonra onaylama işlemi için kullanılmak
 transfer() -> Tüm kontroller yapıldıktan sonra, token sahibi transfer için bu fonksiyonu kullanabilir.
 transferFrom()  -> Belirli bir hesaba payment transferlerini otomatik ödemeye döndürmeyi sağlar.
 
-En çok kontrat adresimi bulurken zorlandım. Onu bulmaya çalışırken metamask'in tüm özelliklerini öğrendim. Birçok kez LMT'yi yollamayı denedim, source code'unu paylaştım. En sonunda kontrat adresimi bulabildim. 
+En çok kontrat adresimi bulurken zorlandım. Onu bulmaya çalışırken metamask'in tüm özelliklerini öğrendim. Birçok kez LMT'yi yollamayı denedim, source code'unu paylaştım. En sonunda kontrat adresimi bulabildim. Tokenim için gerekli olan fonksiyonları, neden gerekli olduklarını özümsedim. remix.etherium kullanımında hızlandım. 
